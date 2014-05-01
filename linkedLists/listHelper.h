@@ -7,6 +7,12 @@
         };
 
 void displayList(struct linkList *node){
+	if(node == NULL)
+        {
+                printf("list is empty\n");
+                return;
+        }
+
 
         while(node->next != NULL){
                 printf("%d..", node->data);
