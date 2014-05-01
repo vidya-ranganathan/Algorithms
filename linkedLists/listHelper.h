@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<malloc.h>
 
-        struct linkList{
+        struct linkList
+        {
                 int data;
                 struct linkList *next;
         };
